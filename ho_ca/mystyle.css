@@ -1,0 +1,85 @@
+#shark {
+  left: 5%; top: 400px;
+  position: absolute;
+  animation: shark 10s linear infinite;
+}
+
+@keyframes shark {
+  0% {left: 5%; top: 400px;}
+  40% {left: 50%; top: 300px;}
+  50% {left: 90%; top: 150px;}
+  60% {left: 90%; top: 200px;}
+  100% {left: 5%; top: 400px; transform:scaleX(-1);}
+}
+
+#faintSchool {
+  left: 5%; top: 150px;
+  position: absolute;
+  animation: faintSchool 8s linear infinite;
+}
+
+@keyframes faintSchool {
+  0%   {left: 5%; top:150px;}
+  50%  {left: 90%; top:160px;}
+  100% {left: 5%; top:150px; transform:scaleX(-1);}
+}
+
+#goldFishSchool {
+  left: 5%; top: 250px;
+  position: absolute;
+  animation: goldFishSchool 8s linear infinite;
+}
+
+@keyframes goldFishSchool {
+  0%   {left: 5%; top:250px;}
+  50%  {left: 90%; top:270px;}
+  100% {left: 5%; top:250px; transform:scaleX(-1);}
+}
+
+#turtle {
+  left: 10%; top: 350px;
+  position: absolute;
+  animation: turtle 20s linear infinite;
+}
+
+@keyframes turtle {
+  0%   {left:10%; top:350px;}
+  50%  {left:90%; top:360px;}
+  100% {left:10%; top:350px; transform:scaleX(-1);}
+}
+
+#diver1 {
+  left: 5%; top: 100px;
+  position: absolute;
+  animation: diver1 15s linear infinite;
+}
+
+@keyframes diver1 {
+  0%   {left: 5%; top:100px;}
+  50%  {left: 90%; top:100px;}
+  100% {left: 5%; top:100px; transform:scaleX(-1);}
+}
+
+#diver2 {
+  left: 8%; top: 200px;
+  position: absolute;
+  animation: diver2 17s linear infinite;
+}
+
+@keyframes diver2 {
+  0%   {left: 8%; top:200px;}
+  50%  {left: 90%; top:220px;}
+  100% {left: 8%; top:200px; transform:scaleX(-1);}
+}
+
+#diver3 {
+  left: 10%; top: 300px;
+  position: absolute;
+  animation: diver3 19s linear infinite;
+}
+
+@keyframes diver3 {
+  0%   {left: 10%; top:300px;}
+  50%  {left: 90%; top:320px;}
+  100% {left: 10%; top:300px; transform:scaleX(-1);}
+}
